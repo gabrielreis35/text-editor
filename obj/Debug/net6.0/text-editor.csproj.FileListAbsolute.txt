@@ -1,0 +1,15 @@
+/home/reis/Desktop/Ucl/text-editor/obj/Debug/net6.0/text-editor.csproj.AssemblyReference.cache
+/home/reis/Desktop/Ucl/text-editor/obj/Debug/net6.0/text-editor.GeneratedMSBuildEditorConfig.editorconfig
+/home/reis/Desktop/Ucl/text-editor/obj/Debug/net6.0/text-editor.AssemblyInfoInputs.cache
+/home/reis/Desktop/Ucl/text-editor/obj/Debug/net6.0/text-editor.AssemblyInfo.cs
+/home/reis/Desktop/Ucl/text-editor/obj/Debug/net6.0/text-editor.csproj.CoreCompileInputs.cache
+/home/reis/Desktop/Ucl/text-editor/bin/Debug/net6.0/text-editor
+/home/reis/Desktop/Ucl/text-editor/bin/Debug/net6.0/text-editor.deps.json
+/home/reis/Desktop/Ucl/text-editor/bin/Debug/net6.0/text-editor.runtimeconfig.json
+/home/reis/Desktop/Ucl/text-editor/bin/Debug/net6.0/text-editor.dll
+/home/reis/Desktop/Ucl/text-editor/bin/Debug/net6.0/text-editor.pdb
+/home/reis/Desktop/Ucl/text-editor/obj/Debug/net6.0/text-editor.dll
+/home/reis/Desktop/Ucl/text-editor/obj/Debug/net6.0/refint/text-editor.dll
+/home/reis/Desktop/Ucl/text-editor/obj/Debug/net6.0/text-editor.pdb
+/home/reis/Desktop/Ucl/text-editor/obj/Debug/net6.0/text-editor.genruntimeconfig.cache
+/home/reis/Desktop/Ucl/text-editor/obj/Debug/net6.0/ref/text-editor.dll
