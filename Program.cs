@@ -7,6 +7,7 @@ namespace textEditor {
             StreamReader reader = new StreamReader("br-dictionary.txt");
             string data = reader.ReadToEnd();
             string[] words = data.Split("\n");
+            return(words);
         }
         string AddWord(string newWord){
             // Adicionando palavra ao dicionário;
@@ -17,7 +18,10 @@ namespace textEditor {
             bool verify_todo = False;
             int todo = 0;
             string newWord;
+            string[] dict;
 
+            dict = Dictionary();
+            
             // Iniciando o Programa;
             Console.WriteLine("O que deseja fazer?");
             Console.WriteLine("1 - Adicionar nova palavra.");
