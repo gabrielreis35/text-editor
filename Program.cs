@@ -35,7 +35,6 @@ namespace textEditor {
                     verify_todo = true;
                     Console.WriteLine("Qual palavra deseja adicionar? ");
                     newWord = Console.ReadLine();
-                    Console.WriteLine("Palavra adicionada - " + newWord);
                 }
                 else if (todo == 2){
                     // Executar a função de verificar o texto;
