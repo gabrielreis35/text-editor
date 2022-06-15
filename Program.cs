@@ -1,6 +1,4 @@
-﻿using System;
-using dictionary;
-using words;
+﻿using words;
 
 
 Console.WriteLine("Seja bem vindo!");
@@ -8,31 +6,12 @@ Console.WriteLine("Estamos atualizando o banco de dados com as palavras já conh
 
 Words.ReadFile();
 
-
-// string ReadFile(){
-//     // Inicializando o dicionário com as palavras padrões;
-    
-// }
-// string AddWord(string newWord){
-//     // Adicionando palavra ao dicionário;
-//     return ("0");
-// }
-
-// static void Main(string[] args){
-//     // Iniciando as variáveis globais;
-//     bool verify_todo = false;
-//     int todo = 0;
-//     string newWord;
-//     string[] dictionary;
-
-    
-//     // dictionary = Program.ReadFile();
+Console.WriteLine("O que deseja fazer?");
+Console.WriteLine("1 - Adicionar nova palavra.");
+Console.WriteLine("2 - Verificar texto.");
 
 
 //     // Iniciando o Programa;
-//     Console.WriteLine("O que deseja fazer?");
-//     Console.WriteLine("1 - Adicionar nova palavra.");
-//     Console.WriteLine("2 - Verificar texto.");
 //     todo = Convert.ToInt32(Console.ReadLine());
     
 //     do{    

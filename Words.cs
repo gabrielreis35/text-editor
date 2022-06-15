@@ -7,89 +7,90 @@ namespace words{
             string data = reader.ReadToEnd();
             string[] words = data.Split("\n");
             int length_dict = words.Length;
-            int count_a = 0;
-
+            
             string[] dict = new string[27];
             
             for (int i = 0; i < length_dict; i++) {
                 char[] word_broken = words[i].ToCharArray();
+                int length_word = word_broken.Length;
+
                 if (word_broken[0] == 'a'){
-                    continue;
+                    Hashtable_a.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'b'){
-                    continue;
+                    Hashtable_b.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'c'){
-                    continue;
+                    Hashtable_c.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'd'){
-                    continue;
+                    Hashtable_d.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'e'){
-                    continue;
+                    Hashtable_e.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'f'){
-                    continue;
+                    Hashtable_f.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'g'){
-                    continue;
+                    Hashtable_g.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'h'){
-                    continue;
+                    Hashtable_h.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'i'){
-                    continue;
+                    Hashtable_i.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'j'){
-                    continue;
+                    Hashtable_j.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'k'){
-                    continue;
+                    Hashtable_k.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'l'){
-                    continue;
+                    Hashtable_l.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'm'){
-                    continue;
+                    Hashtable_m.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'n'){
-                    continue;
+                    Hashtable_n.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'o'){
-                    continue;
+                    Hashtable_o.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'p'){
-                    continue;
+                    Hashtable_p.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'q'){
-                    continue;
+                    Hashtable_q.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'r'){
-                    continue;
+                    Hashtable_r.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 's'){
-                    continue;
+                    Hashtable_s.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 't'){
-                    continue;
+                    Hashtable_t.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'u'){
-                    continue;
+                    Hashtable_u.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'v'){
-                    continue;
+                    Hashtable_v.AddAWords(words[i], length_word);
                 }
                 else if (word_broken[0] == 'w'){
-                    continue;
+                    Hashtable_w.AddAWords(words[i], length_word);;
                 }
                 else if (word_broken[0] == 'x'){
-                    continue;
+                    Hashtable_x.AddAWords(words[i], length_word);;
                 }
                 else if (word_broken[0] == 'y'){
-                    continue;
+                    Hashtable_y.AddAWords(words[i], length_word);;
                 }
                 else if (word_broken[0] == 'z'){
-                    continue;
+                    Hashtable_z.AddAWords(words[i], length_word);;
                 }
             }
         }
